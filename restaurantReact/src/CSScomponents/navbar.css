@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #236e96;
+}
+
+header h1 {
+  color: #faf9f6;
+  letter-spacing: 0.2rem;
+  font-family: "Margarine", sans-serif;
+}
+header h1:hover {
+  color: #ffd700;
+  cursor: pointer;
+}
+
+nav {
+  max-width: 840px;
+  margin: 0 auto;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #faf9f6;
+  font-family: "Poppins", sans-serif;
+}
+
+header a:hover {
+  color: #ffd700;
+}
