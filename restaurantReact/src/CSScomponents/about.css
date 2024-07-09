@@ -22,6 +22,7 @@ p {
   color: rgb(77, 75, 75);
   font-family: "poppins", sans-serif;
   font-weight: 700;
+  box-shadow: 0.5px 0.5px 2.5px #faf9f6;
 }
 
 .about-section {
@@ -38,6 +39,7 @@ p {
   border: solid #15b2d3 2px;
   border-radius: 10px;
   object-fit: cover;
+  box-shadow: 1px 2px 5px #ffd700;
 }
 
 .about-section :nth-child(2) {
@@ -45,17 +47,20 @@ p {
   border-radius: 10px;
   position: relative;
   top: 50px;
+  box-shadow: 1px 2px 5px #15b2d3;
 }
 .about-section :nth-child(3) {
   position: relative;
   border: solid #ffd700 2px;
   border-radius: 10px;
+  box-shadow: 1px 2px 5px #15b2d3;
 }
 .about-section :nth-child(4) {
   border: solid #15b2d3 2px;
   border-radius: 10px;
   position: relative;
   bottom: 50px;
+  box-shadow: 1px 2px 5px #ffd700;
 }
 
 address {
@@ -69,6 +74,7 @@ address {
   bottom: 45px;
   letter-spacing: 0.3em;
   border-radius: 10px;
+  box-shadow: 2px 1px 6px #faf9f6;
 }
 
 @media only screen and (max-width: 835px) {

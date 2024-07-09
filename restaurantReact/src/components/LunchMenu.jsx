@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const lunchMenu = [
   {
     name: "Pizza",
@@ -21,6 +19,11 @@ const lunchMenu = [
     description: "Pepperoni",
     price: "10",
   },
+  {
+    name: "Sipnach",
+    description: "Pepperoni",
+    price: "10",
+  },
 ];
 
 export default function LunchMenu() {
@@ -34,7 +37,10 @@ export default function LunchMenu() {
       <article>
         <ul className="l">
           {lunchMenu.map((i) => (
-            <li key={i.name}>{i.name}</li>
+            <li key={i.name}>
+              <article className="lunch-gap">{i.name}</article>
+              {i.description}${i.price}
+            </li>
           ))}
         </ul>
       </article>
