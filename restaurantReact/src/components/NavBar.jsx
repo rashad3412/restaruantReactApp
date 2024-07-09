@@ -4,7 +4,7 @@
 export default function NavBar() {
   return (
     <>
-      <header>
+      <header className="nav-bar">
         <nav>
           <h1>
             <div>Meez</div>

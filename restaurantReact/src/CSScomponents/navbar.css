@@ -3,16 +3,16 @@
   padding: 0;
 }
 
-header {
+.nav-bar {
   background: #236e96;
 }
 
-header h1 {
+.nav-bar h1 {
   color: #faf9f6;
   letter-spacing: 0.2rem;
   font-family: "Margarine", sans-serif;
 }
-header h1:hover {
+.nav-bar h1:hover {
   color: #ffd700;
   cursor: pointer;
 }
@@ -32,6 +32,6 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-header a:hover {
+.nav-bar a:hover {
   color: #ffd700;
 }

@@ -1,0 +1,47 @@
+.menu-header h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: #faf9f6;
+  letter-spacing: 0.8rem;
+  font-family: "Margarine", sans-serif;
+}
+.menu-header h2 :nth-child(1) {
+  text-decoration: overline #ffd700;
+}
+.menu-header h2 :nth-child(2) {
+  text-decoration: underline #ffd700;
+}
+
+.menu-items {
+  display: grid;
+  margin: 0 auto;
+  max-width: 925px;
+  height: 450px;
+  padding-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.menu-items div {
+  display: grid;
+  text-align: center;
+  border: #faf9f6 solid 2px;
+  border-radius: 5px;
+  background: #236e96;
+  overflow: hidden;
+  box-shadow: 1px 2px 5px #ffd700;
+}
+
+h3 {
+  height: fit-content;
+  margin-top: 10px;
+  position: relative;
+  top: 20px;
+  font-family: "Margarine", sans-serif;
+  color: #ffd700;
+  letter-spacing: 0.4em;
+}
+
+.l {
+  margin: 0;
+}
