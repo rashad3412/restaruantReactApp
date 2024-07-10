@@ -36,8 +36,8 @@ export default function Vibez() {
             {eventVibez.map((i) => (
               <li key={i.name}>
                 <div>{i.name}</div>
-                <div>{i.time}</div>
                 <div>{i.day}</div>
+                <div>{i.time}</div>
               </li>
             ))}
           </ul>
