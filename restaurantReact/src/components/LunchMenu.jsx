@@ -31,6 +31,9 @@ const lunchMenu = [
 ];
 
 export default function LunchMenu() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <h3>
@@ -39,7 +42,7 @@ export default function LunchMenu() {
       </h3>
 
       <article>
-        <ul className="menu-list-display">
+        <ul className="menu-list-display" onSubmit={handleSubmit}>
           {lunchMenu.map((i) => (
             <li key={i.name}>
               <article className="menu-list-gap">{i.name}</article>

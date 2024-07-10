@@ -1,12 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .nav-bar {
   background: #236e96;
   border-bottom: #ffd700 solid 1px;
   border-top: #ffd700 solid 1px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 .nav-bar h1 {

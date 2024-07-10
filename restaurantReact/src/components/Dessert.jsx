@@ -21,16 +21,19 @@ const dessertMenu = [
   {
     name: "Tart Vibez",
     description: "Fruit Tart",
-    price: "10",
+    price: "13",
   },
   {
     name: "Custard Vibez",
     description: "Creme Brulee",
-    price: "10",
+    price: "9",
   },
 ];
 
 export default function DessertMenu() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <h3>
@@ -39,7 +42,7 @@ export default function DessertMenu() {
       </h3>
 
       <article>
-        <ul className="menu-list-display">
+        <ul className="menu-list-display" onSubmit={handleSubmit}>
           {dessertMenu.map((i) => (
             <li key={i.name}>
               <article className="menu-list-gap">{i.name}</article>
