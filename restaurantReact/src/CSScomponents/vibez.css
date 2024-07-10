@@ -1,0 +1,23 @@
+.vibez-grid-container {
+  max-width: 925px;
+  margin: 0 auto;
+  height: 375px;
+  border: solid black 2px;
+  background: #ffd700;
+  border-radius: 10px;
+}
+.vibez-grid-container h2 {
+  display: grid;
+  color: #236e96;
+  justify-items: center;
+  font-family: "Margarine", sans-serif;
+  letter-spacing: 0.3rem;
+  text-shadow: #faf9f6;
+}
+.vibez-grid-container ul {
+  display: grid;
+  text-align: center;
+  list-style-type: none;
+  grid-template-columns: repeat(4, 1fr);
+  border: solid black 2px;
+}

@@ -36,12 +36,12 @@ export default function DessertMenu() {
   };
   return (
     <>
-      <h3>
+      <h3 className="menu-header">
         <header>Sweet</header>
         <header>Vibez</header>
       </h3>
 
-      <article>
+      <section>
         <ul className="menu-list-display" onSubmit={handleSubmit}>
           {dessertMenu.map((i) => (
             <li key={i.name}>
@@ -50,7 +50,7 @@ export default function DessertMenu() {
             </li>
           ))}
         </ul>
-      </article>
+      </section>
     </>
   );
 }

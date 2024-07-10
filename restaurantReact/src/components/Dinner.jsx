@@ -38,12 +38,12 @@ export default function DinnerMenu() {
 
   return (
     <>
-      <h3>
+      <h3 className="menu-header">
         <header>Dinner</header>
         <header>Vibez</header>
       </h3>
 
-      <article>
+      <section>
         <ul className="menu-list-display" onSubmit={handleSubmit}>
           {dinnerMenu.map((i) => (
             <li key={i.name}>
@@ -52,7 +52,7 @@ export default function DinnerMenu() {
             </li>
           ))}
         </ul>
-      </article>
+      </section>
     </>
   );
 }

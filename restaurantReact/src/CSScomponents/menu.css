@@ -4,6 +4,9 @@
   letter-spacing: 0.8rem;
   font-family: "Margarine", sans-serif;
   text-shadow: 1px 1px 3.5px #15b2d3;
+
+  position: relative;
+  bottom: 30px;
 }
 .menu-header h2 :nth-child(1) {
   text-decoration: overline #ffd700;
@@ -32,7 +35,7 @@
   box-shadow: 1px 2px 5px #ffd700;
 }
 
-h3 {
+.menu-header {
   height: fit-content;
   margin-top: 10px;
   position: relative;
