@@ -22,7 +22,7 @@
   gap: 10px;
 }
 
-.menu-items div {
+.menu-items .items {
   display: grid;
   text-align: center;
   border: #faf9f6 solid 2px;
@@ -43,13 +43,18 @@ h3 {
   letter-spacing: 0.4em;
 }
 
-.l {
+.menu-list-display {
   color: #faf9f6;
   font-family: "poppins", sans-serif;
   font-size: 12.5px;
   margin: 0;
 }
 
-.lunch-gap {
+.menu-list-gap {
   margin-top: 25px;
+}
+
+span {
+  color: #ffd700;
+  padding-left: 2.5px;
 }

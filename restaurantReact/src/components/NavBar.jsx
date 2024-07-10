@@ -1,5 +1,6 @@
 // Building an NavBar
 // NavBar should be a list of elements
+// NavBar Page
 
 export default function NavBar() {
   return (

@@ -1,3 +1,6 @@
+// About Page
+// Should have an description and images with address
+
 export default function About() {
   return (
     <>
@@ -8,6 +11,7 @@ export default function About() {
           the vibezz of your stomach with farm to table and local fresh
           ingridents with a unique twist.
         </p>
+
         <section className="about-section">
           <img
             src="../assets/./img1.jpg"

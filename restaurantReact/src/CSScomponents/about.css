@@ -77,6 +77,15 @@ address {
   box-shadow: 2px 1px 6px #faf9f6;
 }
 
+.hours {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  border: solid black 1px;
+}
+
 @media only screen and (max-width: 835px) {
   .about-article {
     display: flex;

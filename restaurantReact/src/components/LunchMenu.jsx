@@ -1,28 +1,32 @@
+// Lunch Menu
+// Will display Lunch Items in the menu component
+// review mapping and naming of elements
+
 const lunchMenu = [
   {
-    name: "Pizza",
+    name: "Pizza Vibez",
     description: "Pepperoni",
-    price: "10",
+    price: "14",
   },
   {
-    name: "Beans",
-    description: "Pepperoni",
-    price: "10",
+    name: "Chicken Vibez",
+    description: "Chicken Sandwich",
+    price: "12",
   },
   {
-    name: "Cheese",
-    description: "Pepperoni",
-    price: "10",
+    name: "Red Meat Vibez",
+    description: "Steak Burger",
+    price: "12",
   },
   {
-    name: "Ice Cream",
-    description: "Pepperoni",
-    price: "10",
+    name: "Fish Vibez",
+    description: "Salmon over Risotto",
+    price: "15",
   },
   {
-    name: "Sipnach",
-    description: "Pepperoni",
-    price: "10",
+    name: "Dip Vibez",
+    description: "Cajun Crab Dip",
+    price: "8",
   },
 ];
 
@@ -35,11 +39,11 @@ export default function LunchMenu() {
       </h3>
 
       <article>
-        <ul className="l">
+        <ul className="menu-list-display">
           {lunchMenu.map((i) => (
             <li key={i.name}>
-              <article className="lunch-gap">{i.name}</article>
-              {i.description}${i.price}
+              <article className="menu-list-gap">{i.name}</article>
+              {i.description} <span>${i.price}</span>
             </li>
           ))}
         </ul>
