@@ -1,22 +1,22 @@
 const eventVibez = [
   {
-    name: "Trivia Night",
+    name: "Trivia Vibez",
     time: "8:00pm",
     day: "Monday",
   },
   {
-    name: "50 cent wings",
-    time: "8:00pm",
+    name: "Military Vibez",
+    time: "7:00pm",
     day: "Tuesday",
   },
   {
-    name: "Military Night",
-    time: "8:00pm",
+    name: "Wing Vibez",
+    time: "6:00pm",
     day: "Wedensday",
   },
   {
-    name: "R&B Night",
-    time: "8:00pm",
+    name: "R&B Vibez",
+    time: "5:00pm",
     day: "Friday",
   },
 ];
