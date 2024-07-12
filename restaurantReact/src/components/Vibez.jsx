@@ -21,8 +21,6 @@ const eventVibez = [
   },
 ];
 
-console.log(eventVibez);
-
 export default function Vibez() {
   return (
     <>

@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-p {
+.about-article p {
   height: fit-content;
   padding: 5px;
   text-align: center;
