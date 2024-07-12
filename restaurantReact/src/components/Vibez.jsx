@@ -43,15 +43,6 @@ export default function Vibez() {
           </ul>
         </article>
       </section>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 }
