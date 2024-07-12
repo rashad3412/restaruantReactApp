@@ -19,13 +19,6 @@ export default function Contact() {
       </section>
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 }

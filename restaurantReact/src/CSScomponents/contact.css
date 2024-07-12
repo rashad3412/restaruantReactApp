@@ -5,6 +5,7 @@
   grid-template-columns: repeat(1, 1fr);
   position: relative;
   top: 30px;
+
   background: #ffd700;
   margin: 0 auto;
   border: solid #236e96 3px;
@@ -86,4 +87,10 @@ button {
   background-color: #236e96;
   color: #ffd700;
   letter-spacing: 0.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd700;
+  color: #236e96;
 }

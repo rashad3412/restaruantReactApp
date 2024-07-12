@@ -6,6 +6,7 @@ import "./CSScomponents/./about.css";
 import "./CSScomponents/./menu.css";
 import "./CSScomponents/./vibez.css";
 import "./CSScomponents/./contact.css";
+import "./CSScomponents/./footer.css";
 import "../assets/./img1.jpg";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
