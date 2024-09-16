@@ -9,10 +9,13 @@ export default function About() {
     <>
       <article className="about-article" onSubmit={handleSubmit}>
         <p>
-          MeezVibez is a speacial setting for everyone. The name represents a
-          you or a me wanting to get a vibe. Our menu is designed to cater to
-          the vibezz of your stomach with farm to table and local fresh
-          ingridents with a unique twist.
+          MeezVibez is the ultimate destination for anyone looking to elevate
+          their dining experience. The name reflects the essence of finding your
+          perfect vibe—whether its you or me, we’re all about creating the right
+          atmosphere. Our menu is a celebration of farm-to-table freshness and
+          local ingredients, each dish crafted with a unique twist to satisfy
+          your cravings and match your mood. At MeezVibez, we turn every meal
+          into a flavorful journey that resonates with your taste and vibe.
         </p>
 
         <section className="about-section" onSubmit={handleSubmit}>
